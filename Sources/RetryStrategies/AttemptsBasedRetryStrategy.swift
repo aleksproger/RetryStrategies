@@ -1,7 +1,7 @@
 import Foundation
 import OSLog
 
-private let log = OSLog(subsystem: "com.f-secure.safe", category: "attempts-based-retry-strategy")
+private let log = OSLog(subsystem: "com.retry-strategy", category: "attempts-based-retry-strategy")
 
 public final class AttemptsBasedRetryStrategy<R, P: RetryPolicy>: RetryStrategy 
 where P.BlockResult == R {
