@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "RetryStrategies",
+    name: "retry-strategies",
     platforms: [.macOS(.v11)],
     products: [
         .library(name: "RetryStrategies", targets: ["RetryStrategies"]),
